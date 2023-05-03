@@ -14,3 +14,7 @@ use payroll_service;
  select * from employee_payroll;
  update employee_payroll set salary = 55000.00 where id = 9;
  delete from employee_payroll where id = 9; 
+ 
+  ------  UC4  ------
+ use payroll_service;
+ select * from employee_payroll;
