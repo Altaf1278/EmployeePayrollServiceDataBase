@@ -1,9 +1,0 @@
-id,name,gender,phone,address,department,salary,start
-1,Altaf,M,NULL,N/A,,25000,2022-03-15
-2,Kiran,M,NULL,N/A,,26000,2021-05-10
-3,Aman,M,NULL,N/A,,27500,2022-11-01
-4,ShlokBabu,M,NULL,N/A,,25400,2021-06-25
-5,Muskan,F,NULL,N/A,,27500,2021-05-20
-6,Rose,F,NULL,N/A,,23000,2023-01-05
-7,kalpana,F,NULL,N/A,,24000,2023-02-10
-8,Rauf,M,NULL,N/A,,30000,2023-02-10
