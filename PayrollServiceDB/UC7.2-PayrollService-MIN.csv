@@ -1,0 +1,3 @@
+gender,MIN(salary)
+M,25000
+F,23000

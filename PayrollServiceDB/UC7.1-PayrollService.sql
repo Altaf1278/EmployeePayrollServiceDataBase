@@ -31,3 +31,11 @@ use payroll_service;
  update employee_payroll set gender = 'F' where name = 'Kalpana';
  update employee_payroll set gender = 'F' where name = 'Muskan' or name = 'Rose';
  select * from employee_payroll;
+ 
+ ------  UC7  ------
+ SELECT gender, SUM(salary) FROM employee_payroll GROUP BY gender;
+ SELECT gender, AVG(salary) FROM employee_payroll GROUP BY gender;
+ SELECT gender, MIN(salary) FROM employee_payroll GROUP BY gender;
+ SELECT gender, MAX(salary) FROM employee_payroll GROUP BY gender;
+ SELECT gender, COUNT(*) FROM employee_payroll GROUP BY gender;
+ SELECT SUM(salary) FROM employee_payroll WHERE gender = 'F';

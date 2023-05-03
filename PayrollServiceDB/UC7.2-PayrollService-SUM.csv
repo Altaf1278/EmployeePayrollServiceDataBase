@@ -1,0 +1,3 @@
+gender,SUM(salary)
+M,133900
+F,74500
