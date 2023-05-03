@@ -39,3 +39,9 @@ use payroll_service;
  SELECT gender, MAX(salary) FROM employee_payroll GROUP BY gender;
  SELECT gender, COUNT(*) FROM employee_payroll GROUP BY gender;
  SELECT SUM(salary) FROM employee_payroll WHERE gender = 'F';
+ 
+ ------  UC8  ------
+alter table employee_payroll add phone long after gender;
+alter table employee_payroll add address varchar(200) default 'N/A' after phone;
+alter table employee_payroll add department varchar(200) not null after address ;
+select * from employee_payroll;
