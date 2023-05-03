@@ -22,3 +22,12 @@ use payroll_service;
   ------  UC5  ------
  select salary from employee_payroll where name = 'Rose';
  select * from employee_payroll where start between cast('2022-01-01' as date ) and date(now());
+ 
+ ------  UC6  ------
+ alter table employee_payroll add column gender char(1) after name;
+ update employee_payroll set gender = 'M' where name = 'kiran' or name = 'Altaf';
+ update employee_payroll set gender = 'M' where name = 'Aman' or name = 'ShlokBabu';
+ update employee_payroll set gender = 'M' where name = 'Rauf' ;
+ update employee_payroll set gender = 'F' where name = 'Kalpana';
+ update employee_payroll set gender = 'F' where name = 'Muskan' or name = 'Rose';
+ select * from employee_payroll;
