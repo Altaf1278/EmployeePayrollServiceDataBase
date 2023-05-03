@@ -18,3 +18,7 @@ use payroll_service;
   ------  UC4  ------
  use payroll_service;
  select * from employee_payroll;
+ 
+  ------  UC5  ------
+ select salary from employee_payroll where name = 'Rose';
+ select * from employee_payroll where start between cast('2022-01-01' as date ) and date(now());
